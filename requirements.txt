@@ -1,15 +1,17 @@
-agno
+# Core framework
 streamlit
 python-dotenv
-yfinance
-packaging
-duckduckgo-search
-fastapi
-uvicorn
-groq
-sqlalchemy
-pgvector
-psycopg[binary]
-pypdf
-arxiv
-googlesearch-python
+
+# Agno agents + dependencies
+agno
+pycountry
+requests
+beautifulsoup4
+lxml
+
+# Data analysis & visualization
+pandas>
+matplotlib
+
+# Optional: useful for exporting/markdown handling
+markdownify
