@@ -60,7 +60,7 @@ charts.
 - Groq → LLM backend
 - Pandas → Data analysis
 - Matplotlib → Data visualization
-## n Future Improvements
+##  Future Improvements
 - Tabbed interface for smoother navigation
 - Integration with live sustainability datasets/APIs
 - Export to PDF with charts and proposal summary
