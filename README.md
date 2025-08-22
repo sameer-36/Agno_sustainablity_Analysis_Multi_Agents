@@ -1,35 +1,35 @@
 # Agno_sustainablity_Analysis_Multi_Agents
-Sustainability Task Force – Multi-Agent AI Dashboard  An interactive Streamlit dashboard powered by Agno multi-agents to research and propose sustainable city solutions. This project was developed as part of the Agno Agents Lab: Mission Sustainability.  🚀 Features  Multi-Agent System – 4 specialized AI agents with distinct roles:  📰 News Analyst 
-# n Sustainability Task Force – Multi-Agent AI
+Sustainability Task Force – Multi-Agent AI Dashboard  An interactive Streamlit dashboard powered by Agno multi-agents to research and propose sustainable city solutions. This project was developed as part of the Agno Agents Lab: Mission Sustainability.  🚀 Features  Multi-Agent System – 4 specialized AI agents with distinct roles.
+#  Sustainability Task Force – Multi-Agent AI
 Dashboard
 An interactive **Streamlit dashboard** powered by **Agno multi-agents** to research and propose
 sustainable city solutions.
 This project was developed as part of the **Agno Agents Lab: Mission Sustainability**.
-## n Features
+##  Features
 - **Multi-Agent System** – 4 specialized AI agents with distinct roles:
-- n **News Analyst** → Finds recent sustainability news & green city projects.
-- n **Data Analyst** → Analyzes environmental datasets (CSV) & auto-generates charts.
-- nn **Policy Reviewer** → Summarizes official government sustainability policies.
-- n **Innovations Scout** → Identifies cutting-edge urban green technologies.
-- **n Task Force Mode** – All agents collaborate to produce a single **Sustainability Proposal**.
+- **News Analyst** → Finds recent sustainability news & green city projects.
+- **Data Analyst** → Analyzes environmental datasets (CSV) & auto-generates charts.
+- **Policy Reviewer** → Summarizes official government sustainability policies.
+- **Innovations Scout** → Identifies cutting-edge urban green technologies.
+- **Task Force Mode** – All agents collaborate to produce a single **Sustainability Proposal**.
 - **Beautiful Dashboard UI** – Card-based layout with icons, modern styling, and wide-screen
 support.
 - **Data Upload & Visualization** – Upload environmental CSV files → preview + auto-generated
 charts.
 - **History Tracking** – View past queries & results in expandable sections.
 - **Export Reports** – Download results as Markdown or Text files.
-## nn Demo
+## Demo
 - Enter a **research topic** (e.g., “How can our city improve air quality?”).
 - Choose an **agent** (or full Task Force).
 - Upload CSV (if using Data Analyst).
 - Click **Run Analysis** n → Get detailed insights.
-## n Project Structure
-n Sustainability-Taskforce
-n n sustainability_taskforce.py # Main Streamlit app
-n n .env # Environment variables (API keys)
-n n requirements.txt # Dependencies
-n n datasets/ # (Optional) Sample CSV files
-## n Installation & Setup
+## Project Structure
+ Sustainability-Taskforce
+ sustainability_taskforce.py # Main Streamlit app
+ .env # Environment variables (API keys)
+requirements.txt # Dependencies
+ datasets/ # (Optional) Sample CSV files
+##  Installation & Setup
 1. **Clone the repository**
 ```bash
 git clone https://github.com/your-username/sustainability-taskforce.git
@@ -47,14 +47,14 @@ GROQ_API_KEY=your_groq_api_key_here
 ```bash
 streamlit run sustainability_taskforce.py
 ```
-## n Example Use Case
+##  Example Use Case
 - The **News Analyst** finds reports on new urban green initiatives.
 - The **Data Analyst** analyzes uploaded air quality datasets, generating statistical summaries and
 charts.
 - The **Policy Reviewer** summarizes government climate and urban policies.
 - The **Innovations Scout** discovers emerging technologies (e.g., vertical farming, smart grids).
 - The **Task Force** integrates all findings into a **comprehensive sustainability proposal**.
-## nn Tech Stack
+## Tech Stack
 - Streamlit → Interactive UI
 - Agno → Multi-agent framework
 - Groq → LLM backend
